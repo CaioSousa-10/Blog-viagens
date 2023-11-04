@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+    border: 0;
+}
+
+body {
+    font-family: Georgia;
+}
+
+
+header {
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    height: 80px;
+    border-bottom: 3px solid #dcdcdc;
+    margin-bottom: 25px;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+main {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 65%;
+    margin-left: 75px;
+    padding: 10px;
+    flex: 3 1 0;
+}
+
+.post {
+    margin-bottom: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: #08ece1;
+}
+
+.title, .description, .author {
+    margin-bottom: 1rem;
+}
+
+.author {
+    color: #333;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.imagens-post {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+aside {
+    
+    margin: 0.5rem 4rem 0rem 1rem;
+    background-color: #fff;
+    flex: 1 1 0;
+}
+
+#search-bar {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#search-bar h2 {
+    margin-bottom: 2rem;
+}
+
+form {
+    display: flex;
+}
+
+#search-bar input {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+}
+
+#search-bar input[type="submit"] {
+    cursor: pointer;
+    background-color: #37a1f7;
+    color: #fff;
+    border: none;
+}
+
+#categorias {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+#categorias h2 {
+    margin-bottom: 2rem;
+}
+#categorias li {
+    margin: 1rem;
+    list-style: none;
+    margin-left: 0;
+}
+
+#tags {
+
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+#tags h2 {
+    margin-bottom: 2rem;
+}
+
+#tags a {
+    background-color: #ddd;
+    padding: 0.5rem 0.7rem;
+    border-radius: 0.3rem;
+}
+
+#tags div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+
+footer {
+    text-align: center;
+    border-top: 3px solid #ddd;
+    padding: 3rem;
+}
+
+footer h2, p {
+    margin-bottom: 1rem;
+}
